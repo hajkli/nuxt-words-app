@@ -59,7 +59,7 @@ The server will be accessible at `http://localhost:3001`. The backend serves wor
 Now, navigate to the Nuxt application directory (`/nuxt-app`) and install the necessary dependencies.
 
 ```bash
-cd ../nuxt-app
+open root folder
 npm install
 ```
 
