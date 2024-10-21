@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "#app": ["./node_modules/nuxt/dist/app/index"],
+      "#imports": ["./.nuxt/types/"],
+      "#components": ["./.nuxt/types/components"],
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "types": ["vuex", "jest"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "include": ["**/*.spec.ts", "**/*.test.ts"],
+
+}
