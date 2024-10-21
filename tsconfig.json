@@ -20,6 +20,4 @@
     "types": ["vuex", "jest"]
   },
   "exclude": ["node_modules", ".nuxt", "dist"],
-  "include": ["**/*.spec.ts", "**/*.test.ts"],
-
 }
